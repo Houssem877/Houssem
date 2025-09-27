@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stayle.css">
+    <title>Houssem</title>
+</head>
+<body>
+
+    
+   <!-- زر العودة للأعلى -->
+<button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+<!-- مكتبة أيقونات FontAwesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+    <header>
+        <!-- 语言菜单 -->
+        <div class="dropdown">
+            <button onclick="toggleMenu()" class="dropbtn">🌐 语言</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">العربية 🇸🇦</a>
+                <a href="index-fr.html">Français 🇫🇷</a>
+                <a href="index-en.html">English 🇬🇧</a>
+                <a href="index-es.html">Español 🇪🇸</a>
+                <a href="index-de.html">Deutsch 🇩🇪</a>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <a href="#shouye">首页</a>
+                <a href="#podcast">播客</a>
+                <a href="#guanyu">关于我</a>
+                <a href="#xiangmu">想法与项目</a>
+                <a href="#zhengshu">证书</a>
+            </ul>
+        </nav>
+    </header>
+    <hr class="divider">
+
+    <section class="main" id="shouye">
+        <div><span>你好，我是 Houssem</span></div>
+        <p>设计师、程序员、内容创作者</p>
+    </section>
+
+    <hr class="divider">
+
+    <section class="podcast" id="podcast">
+        <div>
+            <h1 class="title">播客</h1>
+            <p class="discription">一个音频节目，我在其中分享生活与工作的故事、经验和建议。</p>
+
+            <img src="images/KÓFI.png" alt="img" class="img">
+
+            <a href="https://open.spotify.com/episode/1Toz47BEsFP94xU0QncD8A?si=965b1f7bf2f64060" target="_blank" class="btn">🎧 在 Spotify 收听</a>
+            <a href="https://www.youtube.com/@Sahwa-p" target="_blank" class="btn">▶️ 在 YouTube 观看</a>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="About" id="guanyu">
+        <h1 class="title">关于我</h1>
+        <div>
+            <div class="box">
+                <h2 class="name">我是 Houssem</h2>
+                <p class="id">我是一名标志和缩略图设计师，同时也是一名网页开发者，熟练掌握 HTML 和 CSS。</p>
+                <p class="id">目前我正在学习 JavaScript，以进一步提升我的技能。虽然我在这个领域还比较新，但我始终注重质量与细节。</p>
+                <p class="id">我因好奇和热爱尝试而开始这段旅程。随着时间的推移，我发现自己热衷于将想法转化为视觉作品和互动网站。</p>
+                <p class="id">我相信创造力不依赖于多年经验，而是源于激情、毅力和真正的成长渴望。</p>
+                <p class="id">我不断提升自己的风格与技能，并关注最新的设计与网页开发趋势。对我来说，每个项目都是一次创造独特作品的新机会。</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="m-a" id="xiangmu">
+        <h1 class="title">想法与项目</h1>
+        <div class="continer">
+            <div class="box-a-m">
+                <h3 class="title-m">M2 公司</h3>
+                <p class="dis-m">一家剪辑与设计公司，帮助内容创作者通过吸引人的内容走向成功。</p>
+                <img src="images/M.png" alt="img" class="img-a">
+            </div>
+
+            <div class="box-a-m">
+                <h3 class="title-m">Sahwa 播客</h3>
+                <p class="dis-m">一个音频播客，我们讨论与自我提升和成长相关的重要话题。</p>
+                <img src="images/KÓFI.png" alt="img" class="img-a">
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="Certificates" id="zhengshu">
+        <h1 class="title">证书</h1>
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            <img src="images/Screenshot 2025-09-22 124851.png" alt="证书1" class="img-ce">
+        </marquee>
+    </section>
+
+    <hr class="divider">
+
+
+     <section class="skills" id="skills">
+  <h1 class="title">我的技能</h1>
+  <div class="skills-container">
+    <div class="skill-card">
+      <h3>HTML</h3>
+      <div class="progress"><div class="progress-bar" style="width: 90%;">90%</div></div>
+    </div>
+    <div class="skill-card">
+      <h3>CSS</h3>
+      <div class="progress"><div class="progress-bar" style="width: 80%;">80%</div></div>
+    </div>
+    <div class="skill-card">
+      <h3>JavaScript</h3>
+      <div class="progress"><div class="progress-bar" style="width: 65%;">65%</div></div>
+    </div>
+    <div class="skill-card">
+      <h3>Photoshop</h3>
+      <div class="progress"><div class="progress-bar" style="width: 75%;">75%</div></div>
+    </div>
+  </div>
+</section>
+
+
+    <hr class="divider">
+
+    <section class="contant">
+        <form action="https://formsubmit.co/houssem0398@gmail.com" method="POST">
+            <h1 class="title" id="lianxi">联系我</h1>
+            <input type="email" placeholder="请输入您的电子邮件" class="inp">
+            <label class="m-c">留言</label>
+            <textarea rows="5" placeholder="在此输入您的信息" class="t-a"></textarea>
+            <button class="btn-c">发送</button>
+        </form>
+    </section>
+
+    <hr class="divider">
+
+    <footer>
+        <h2 class="txt">版权所有 © Houssem 2025</h2>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
